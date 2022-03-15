@@ -2,8 +2,6 @@
 
 El siguiente código en **C++** corre perfectamente, sin embargo tiene varios puntos que tienen que mejorar siguiendo los principos de la herencia de clases, accesos, sobre-escritura, funciones virtuales y destructores.
 
--  Corregir el siguiente código de forma tal que aplique los conocimientos descritos en el curso.
-
 ```c++
 #include <iostream>  // allows program to output data to the screen
 
@@ -36,3 +34,10 @@ int main(int argc, const char *argv[]) {
 }  // end function main
 ```
 
+## Instrucciones:
+
+- Corregir los errores del código anterior
+- Convertir este proyecto siguiendo la estructura de CMake utilizando un folder de src para ubicar las clases del proyecto
+- Convertir los structs a clases de C++ siguiendo el estandar de definición (*.h) e implementación (*.cpp)
+  - Recordemos que las clases minimo debe de tener: Constructores, destructores, propiedades, métodos get/set, y toString()
+- Correr el ejercicio y subirlo a GitHub
